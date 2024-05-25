@@ -43,7 +43,7 @@ const About =() => {
             </div>
 
            <div className='p-1 mb-20'>
-                <h2 className='text-gray-200 text-2xl font-bold mb-2'>eGrocery <TbWorldWww className='text-zinc-700'/></h2>
+                <h2 className='text-green-500 text-2xl font-bold mb-2'>eGrocery <TbWorldWww className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
                   An interactive E learning website about space with stunning ui, made using nodeJs, Javascript, Express, Mysql. 
                 </p>
@@ -83,7 +83,7 @@ const About =() => {
             </div>
 
            <div className='p-1 mb-20'>
-                <h2 className='text-gray-200 text-2xl font-bold mb-2'>Kalawakan <TbWorldWww className='text-zinc-700'/></h2>
+                <h2 className='text-green-500 text-2xl font-bold mb-2'>Kalawakan <TbWorldWww className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
                   An interactive E learning website about space with stunning ui, made using nodeJs, Javascript, Express, Mysql. 
                 </p>
@@ -119,7 +119,7 @@ const About =() => {
             </div>
 
            <div className='p-1 mb-20'>
-                <h2 className='text-gray-200 text-2xl font-bold mb-2'>Hotel Management System <FaWindows className='text-zinc-700'/></h2>
+                <h2 className='text-green-500 text-2xl font-bold mb-2'>Hotel Management System <FaWindows className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
                   Integrated POS and Inventory System for hotel,Crud and Modern Ui 
                 </p>
@@ -153,7 +153,7 @@ const About =() => {
             </div>
 
            <div className='p-1 mb-20'>
-                <h2 className='text-gray-200 text-2xl font-bold mb-2'>Tagpuan <TbWorldWww className='text-zinc-700'/></h2>
+                <h2 className='text-green-500 text-2xl font-bold mb-2'>Tagpuan <TbWorldWww className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
                   Fullstack food ordering website using django and mysql
                 </p>
@@ -186,7 +186,7 @@ const About =() => {
             </div>
 
            <div className='p-1 mb-20'>
-                <h2 className='text-gray-200 text-2xl font-bold mb-2'>PudsFanda<TbWorldWww className='text-zinc-700'/></h2>
+                <h2 className='text-green-500 text-2xl font-bold mb-2'>PudsFanda<TbWorldWww className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
                    A simple fastfood ordering app using html css and js
                 </p>
