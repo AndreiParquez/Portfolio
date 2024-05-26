@@ -23,42 +23,38 @@ import{
     DiDjango
 } from 'react-icons/di'
 
-const About =() => {
+const Projects =() => {
     return(
 
 <>
         <div className=' font-bold rounded-lg p-6 flex flex-wrap gap-4 text-green-500 text-4xl justify-center' >
            <h2>featured projects</h2>
             </div>
-        <div className='max-w-[1000px] mx-auto p-6 grid md:grid-cols-2 gap-8 place-item-center' id="about">
+        <div className='max-w-[1000px] mx-auto p-6 grid md:grid-cols-2 gap-8 place-item-center ' id="about">
             
 
 
 
-
-        <div className='relative group'>
+        
+             <div className='relative group'>
                 <div className='relative w-full  p-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
-                    <img src={p5} alt="project 1" className='rounded-lg md:max-w-[445px]'/>
+                    <img src={p5} alt="project 1" className='rounded-lg '/>
                 </div>
             </div>
 
-           <div className='p-1 mb-20'>
+           <div className='p-1 mb-20 drop-shadow-xl  '>
                 <h2 className='text-green-500 text-2xl font-bold mb-2'>eGrocery <TbWorldWww className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
-                  An interactive E learning website about space with stunning ui, made using nodeJs, Javascript, Express, Mysql. 
+                  An fullstack ecommerce web app using nodeJs, Javascript, Express, Mysql.
                 </p>
                 <div className='md:flex flex-wrap gap-4 text-2xl  flex '>
                 <p className='text-green-500 font-bold text-sm'>Tech:</p>
                     <DiHtml5 className='text-orange-500'/>
                     <DiCss3 className='text-blue-500'/>
-                    
                     <DiJavascript1 className='text-yellow-500'/>
                     <DiNodejsSmall className='text-green-500'/>
                     <SiMysql className='text-blue-500'/>
-                    <SiExpress className='text-green-400'/>
-                    
-                   
-                    
+                    <SiExpress className='text-green-400'/>  
                 </div>
                 <div className='md:flex flex-wrap gap-4 text-1xl flex justify-center md:justify-start'>
                 <a href="https://github.com/AndreiParquez/Kalawakan-E-Learning" target="_blank" rel="noopener noreferrer">
@@ -78,7 +74,7 @@ const About =() => {
 
             <div className='relative group'>
                 <div className='relative w-full  p-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
-                    <img src={p2} alt="project 1" className='rounded-lg md:max-w-[445px]'/>
+                    <img src={p2} alt="project 1" className='rounded-lg '/>
                 </div>
             </div>
 
@@ -114,7 +110,7 @@ const About =() => {
 
             <div className='relative group'>
                 <div className='relative w-full  p-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
-                    <img src={p3} alt="project 1" className='rounded-lg md:max-w-[445px]'/>
+                    <img src={p3} alt="project 1" className='rounded-lg '/>
                 </div>
             </div>
 
@@ -148,7 +144,7 @@ const About =() => {
 
             <div className='relative group'>
                 <div className='relative w-full  p-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
-                    <img src={p4} alt="project 1" className='rounded-lg md:max-w-[445px]'/>
+                    <img src={p4} alt="project 1" className='rounded-lg'/>
                 </div>
             </div>
 
@@ -181,7 +177,7 @@ const About =() => {
 
             <div className='relative group'>
                 <div className='relative w-full  p-2 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg'>
-                    <img src={p1} alt="project 1" className='rounded-lg md:max-w-[445px]'/>
+                    <img src={p1} alt="project 1" className='rounded-lg'/>
                 </div>
             </div>
 
@@ -231,4 +227,4 @@ const About =() => {
     )
 }
 
-export default About
+export default Projects

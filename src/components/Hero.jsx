@@ -15,7 +15,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className='grid md:grid-cols-2 place-items-center max-w-[1000px] mx-auto mb-8 md:mb-32 mt-14 px-3'>
+    <div className='grid md:grid-cols-2 place-items-center max-w-[1000px] mx-auto mb-8 md:mb-22 mt-14 px-3 drop-shadow-2xl'>
       <style>
         {`
           @keyframes wave {
@@ -39,10 +39,10 @@ const Hero = () => {
       <div className='max-w-[1000px] min-w-[300px]'>
         <p className='text-gray-100 md:text-1xl text-2xl tracking-tight font-bold text-center'>
           <div className='flex items-center justify-center'>
-            <span>Hi, I'm <span className='font-bold'>Andrei Parquez</span></span>
+            <span> I'm <span className='font-bold'>Andrei Parquez</span></span>
             <img src={hi} className='w-[30px] ml-2 waving-hand' alt='waving hand' />
           </div>
-          <h2 className='text-gray-300 text-5xl'>I <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text'>design</span> and <span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text'>develop</span> games and websites.</h2>
+          <h2 className='text-gray-300 text-5xl'>I <span className='text-green-500'>design</span> and <span className='text-green-500'>develop</span> games and websites.</h2>
           <TypeAnimation
             sequence={[
               "Web Developer",
@@ -54,13 +54,13 @@ const Hero = () => {
             ]}
             speed={50}
             repeat={Infinity}
-            className='font-bold italic text-green-300 md:text-1xl'
+            className='font-bold italic text-green-600 md:text-1xl'
           />
         </p>
 
         <div className='flex flex-row gap-4 mb-4 md:mb-0'>
           <a href="/path-to-cv.pdf" target="_blank" rel="noopener noreferrer">
-    <button className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-zinc-800 w-28 h-12 mt-6 p-2 bg-white rounded-full ml-4'>
+    <button className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-zinc-800 w-28 h-12 mt-6 p-2 bg-green-500 rounded-full ml-4'>
       <ImDownload className='m-1' />CV
     </button>
   </a>
@@ -90,7 +90,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <img src={profilepic} className='w-[300px] md:w-[400px] hidden md:block rendering-pixelated hover:rotate-6 duration-200' alt='profile' />
+      <img src={profilepic} className='w-[300px] md:w-[400px] hidden md:block rendering-pixelated hover:rotate-6 duration-200 drop-shadow-2xl' alt='profile' />
     </div>
   );
 }
