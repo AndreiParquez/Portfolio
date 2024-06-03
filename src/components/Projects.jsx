@@ -89,8 +89,9 @@ const Projects =() => {
                 <a href="https://github.com/AndreiParquez/eGrocery" target="_blank" rel="noopener noreferrer">
                 <button className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg hover:bg-indigo-950 hover:text-indigo-50 z-10 cursor-pointer font-bold  text-zinc-800 w-24 h-9 mt-6 p-2 bg-white rounded-full'>
                 <TbBrandGithubFilled className='text-2xl font-bold mr-2'/>Github</button></a>
+                <a href="https://animetambayan.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <button className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-white w-24 h-9 mt-6 p-2 bg-zinc-800 rounded-full'>
-                <FaEye className='text-2xl font-bold mr-2'/>view</button>
+                <FaEye className='text-2xl font-bold mr-2'/>view</button></a>
                 
                 </div>
             </div>
