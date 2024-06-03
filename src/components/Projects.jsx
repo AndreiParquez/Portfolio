@@ -3,7 +3,7 @@ import p1 from '../assets/p1.png'
 import p2 from '../assets/k.png'
 import p3 from '../assets/h1.png'
 import p4 from '../assets/tagpuan.png'
-import p5 from '../assets/gif.gif'
+import p5 from '../assets/eGrocery.png'
 import { FiGithub, FiTwitter, FiInstagram, FiFacebook } from "react-icons/fi";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";

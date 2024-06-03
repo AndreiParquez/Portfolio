@@ -20,7 +20,7 @@ const Navbar =() => {
         <ul className='hidden md:flex gap-12 z10 cursor-pointer'>
             <li className='relative group'>
                 <Link to="about" smooth={true} offset={50} duration={500}>about</Link>
-                <span className='absolute bottom-0 left-0 w-full h-1 bg-green-500 transform scale-x-0 group-hover:scale-x-100
+              <span className='absolute bottom-0 left-0 w-full h-1 bg-green-500 transform scale-x-0 group-hover:scale-x-100
                 transition-transform duration-300 ease-in-out'></span>
             </li>
             <li className='relative group'>
