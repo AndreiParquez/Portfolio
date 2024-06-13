@@ -47,7 +47,7 @@ const Projects =() => {
            <div className='p-1 mb-20 drop-shadow-xl  '>
                 <h2 className='text-green-500 text-2xl font-bold mb-2'>CvsuGo<TbWorldWww className='text-zinc-700'/></h2>
                 <p className='text-gray-300 mb-1 text-lg m-0'>
-                  A school navigation mobile game
+                  A school navigation mobile game, using Unity Game Engine
                 </p>
                 <div className='md:flex flex-wrap gap-4 text-2xl  flex '>
                 <p className='text-green-500 font-bold text-sm'>Tech:</p>
