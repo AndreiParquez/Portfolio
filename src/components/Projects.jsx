@@ -10,14 +10,10 @@ import p7 from '../assets/ev.png';
 import { FiGithub, FiTwitter, FiInstagram, FiFacebook } from "react-icons/fi";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { FaEye } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { SiCsharp } from "react-icons/si";
-import { FaWindows } from "react-icons/fa";
-import { TbWorldWww } from "react-icons/tb";
-import { FaPhp } from "react-icons/fa6";
+import { SiMysql, SiExpress, SiCsharp } from "react-icons/si";
+import { FaWindows, FaPhp, FaUnity } from "react-icons/fa6";
+import { TbWorldWww, TbArrowBigDownLineFilled, TbArrowBigUpLineFilled } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { FaUnity } from "react-icons/fa6";
 
 import {
     DiJavascript1,
@@ -37,7 +33,7 @@ const Projects = () => {
             img: p7,
             title: "Torneo: Esport Webapp",
             description: "Torneo provides news and exclusive content for competitive gaming. Start your journey into the world of esports!",
-            tech: [<FaPhp className='text-blue-400' />,<RiTailwindCssFill className='text-blue-500' />,<DiHtml5 className='text-orange-500' />, <DiCss3 className='text-blue-500' />, <DiJavascript1 className='text-yellow-500' />,<SiMysql className='text-blue-500' />],
+            tech: [<FaPhp className='text-blue-400' />, <RiTailwindCssFill className='text-blue-500' />, <DiHtml5 className='text-orange-500' />, <DiCss3 className='text-blue-500' />, <DiJavascript1 className='text-yellow-500' />, <SiMysql className='text-blue-500' />],
             github: "https://github.com/AndreiParquez/Esport_Tournament_Website",
             view: "https://torneo-esportnewsandeventweb.000webhostapp.com/"
         },
@@ -45,7 +41,7 @@ const Projects = () => {
             img: p,
             title: "CvsuGo",
             description: "A school navigation mobile game, using Unity Game Engine",
-            tech: [<SiCsharp className='text-green-400' />,<FaUnity className='text-white' />,],
+            tech: [<SiCsharp className='text-green-400' />, <FaUnity className='text-white' />,],
             github: "https://github.com/AndreiParquez/Games/tree/main/Cvsu%20Go",
             view: "https://animetambayan.netlify.app/"
         },
@@ -138,8 +134,8 @@ const Projects = () => {
                 ))}
             </div>
             <div className='flex justify-center'>
-                <button onClick={() => setShowAll(!showAll)} className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-white w-36 h-12 mb-6 p-2 bg-green-500 rounded-full'>
-                    {showAll ? 'Show Less' : 'Show All Projects'}
+                <button onClick={() => setShowAll(!showAll)} className='flex items-center jump-animation justify-between transform text-sm transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-white w-32 h-10 mb-6 p-2 px-6 bg-green-500 rounded-full'>
+                    {showAll ? <TbArrowBigUpLineFilled /> : <TbArrowBigDownLineFilled />}{showAll ? 'show less' : 'show all'}
                 </button>
             </div>
         </>
