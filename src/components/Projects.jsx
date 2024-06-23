@@ -15,6 +15,9 @@ import { SiExpress } from "react-icons/si";
 import { SiCsharp } from "react-icons/si";
 import { FaWindows } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
+import { FaPhp } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaUnity } from "react-icons/fa6";
 
 import {
     DiJavascript1,
@@ -33,16 +36,16 @@ const Projects = () => {
         {
             img: p7,
             title: "Torneo: Esport Webapp",
-            description: "A school navigation mobile game, using Unity Game Engine",
-            tech: [<SiCsharp className='text-green-400' />],
-            github: "https://github.com/AndreiParquez/Games/tree/main/Cvsu%20Go",
-            view: "https://animetambayan.netlify.app/"
+            description: "Torneo provides news and exclusive content for competitive gaming. Start your journey into the world of esports!",
+            tech: [<FaPhp className='text-blue-400' />,<RiTailwindCssFill className='text-blue-500' />,<DiHtml5 className='text-orange-500' />, <DiCss3 className='text-blue-500' />, <DiJavascript1 className='text-yellow-500' />,<SiMysql className='text-blue-500' />],
+            github: "https://github.com/AndreiParquez/Esport_Tournament_Website",
+            view: "https://torneo-esportnewsandeventweb.000webhostapp.com/"
         },
         {
             img: p,
             title: "CvsuGo",
             description: "A school navigation mobile game, using Unity Game Engine",
-            tech: [<SiCsharp className='text-green-400' />],
+            tech: [<SiCsharp className='text-green-400' />,<FaUnity className='text-white' />,],
             github: "https://github.com/AndreiParquez/Games/tree/main/Cvsu%20Go",
             view: "https://animetambayan.netlify.app/"
         },
@@ -135,7 +138,7 @@ const Projects = () => {
                 ))}
             </div>
             <div className='flex justify-center'>
-                <button onClick={() => setShowAll(!showAll)} className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-white w-36 h-12 mt-6 p-2 bg-green-500 rounded-full'>
+                <button onClick={() => setShowAll(!showAll)} className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-white w-36 h-12 mb-6 p-2 bg-green-500 rounded-full'>
                     {showAll ? 'Show Less' : 'Show All Projects'}
                 </button>
             </div>
